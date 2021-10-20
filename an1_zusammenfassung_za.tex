@@ -1,0 +1,17 @@
+\documentclass[a4paper, fontsize=7pt, landscape]{scrartcl}
+\usepackage{dmz}
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+\createmainpagestyle
+
+\begin{document}
+
+\begin{multicols*}{3}
+	\pagestyle{main}
+	\thispagestyle{fancy}
+
+	\input{sections/funktionen.tex}
+	\input{sections/polynome.tex}
+\end{multicols*}
+\end{document}
