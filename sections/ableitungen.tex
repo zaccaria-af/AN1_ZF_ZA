@@ -1,0 +1,23 @@
+\newpage
+
+\section{Ableitungen}
+
+\subsection{Geometrische Interpretation}
+Der Differenzquotient entspricht der Steigung einer Sekanten des Graphen der
+Funktion $f$, die Ableitung entspricht der Steigung der Tangente 
+(bei($x_0, f(x_0))$).
+
+\begin{tikzpicture}[scale=.7]
+    \begin{axis}[
+        axis lines = left,
+        xlabel = x,
+        ylabel = {f(x)},
+    ]
+    \addplot [
+        domain=-10:10,
+        samples=100,
+        color=black,
+    ]
+    {x^2};
+\end{axis}
+\end{tikzpicture}
